@@ -47,5 +47,8 @@ public class MainWindow extends JFrame implements GameUI {
 		} catch (GameException e) {
 			e.printStackTrace();
 		}
+
+		repaint();
+		setSize(250, 250);
 	}
 }

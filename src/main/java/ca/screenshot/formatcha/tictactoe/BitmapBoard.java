@@ -7,15 +7,19 @@ package ca.screenshot.formatcha.tictactoe;
  * <p/>
  * x = col
  * y = row
+ *
+ *
  * <p/>
- * 0   1   2
- * +---+---+---+
+ * <pre>
+ *     0   1   2
+ *   +---+---+---+
  * 0 | 0 | 1 | 2 |
- * +---+---+---+
+ *   +---+---+---+
  * 1 | 3 | 4 | 5 |
- * +---+---+---+
+ *   +---+---+---+
  * 2 | 6 | 7 | 8 |
- * +---+---+---+
+ *   +---+---+---+
+ * </pre>
  */
 public class BitmapBoard {
 	// The winning possibilities don't change per player, let's just make it static
